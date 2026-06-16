@@ -116,8 +116,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b15d6d7c3be4047908837b40b8c083, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UINivel
-  textoNivel: {fileID: 0}
-  textoTiempo: {fileID: 0}
+  textoNivel: {fileID: 5423102236075810092}
+  textoTiempo: {fileID: 8985896094512912730}
 --- !u!1 &1927786701810681145
 GameObject:
   m_ObjectHideFlags: 0
