@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2037552486329407641}
   - component: {fileID: 3735070252376385940}
   m_Layer: 0
-  m_Name: Plataforme
+  m_Name: Plataforma
   m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
