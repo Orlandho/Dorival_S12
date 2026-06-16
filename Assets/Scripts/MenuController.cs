@@ -8,8 +8,12 @@ public class MenuController : MonoBehaviour
         SceneManager.LoadScene("Nivel1");
     }
     
-    public void Salir()
-    {
-        Application.Quit();
-    }
+    public void Salir()
+    {
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+        Application.Quit();
+#endif
+    }
 }
